@@ -1,0 +1,82 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 1.5rem;
+  line-height: 36px;
+  color: var(--quartuaria-text-color);
+}
+
+.sub-menu li :hover {
+  background-color: var(--color-primary);
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  display: block;
+  width: 1728px;
+  height: 878px;
+  object-fit: cover;
+}
+
+.banner h2 {
+  position: absolute;
+  top: 219px;
+  left: 220px;
+  max-width: 740px;
+  font-size: 3.12rem;
+  color: var(--banner-title-color);
+}
+
+#main-home {
+  max-width: 1291px;
+  margin: auto;
+}
+
+#section-home {
+  margin-top: 79px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.options img {
+  width: 246px;
+  height: 246px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#main-home h3 {
+  font-size: 2.25rem;
+  line-height: 54px;
+  color: var(--primary-text-color);
+}
+
+#main-home h4 {
+  margin-top: 11px;
+  font-size: 1.5rem;
+  line-height: 29.05px;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+#section-home span{
+  display: block;
+  margin-top: 9px;
+  margin-bottom: 25px;
+  font-size: 1rem ;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+/*Seção de apartamentos */
+
+#body-home{
+ height: 3000px;
+}
