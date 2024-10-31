@@ -1,0 +1,116 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 1.5rem;
+  line-height: 36px;
+  color: var(--quartuaria-text-color);
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 32px 218px;
+  background-color: var(--background-color-menu);
+  height: 109px;
+}
+
+.sub-menu ul {
+  display: flex;
+  gap: 52px;
+}
+
+.sub-menu a {
+  padding: 12px 62px;
+  border-radius: 12px;
+  color: var(--background-color-body);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 68px 85px 52px 88px;
+  gap: 100px;
+  max-height: 890px;
+}
+
+.info-login {
+  display: block;
+  flex-flow: column wrap;
+  box-sizing: border-box;
+  width: 621px;
+  height: 893px;
+  padding: 89px 77px 93px 76px;
+  background-color: var(--tertiary-text-color);
+  border-radius: 29px;
+}
+
+#title-login h1 {
+  display: block;
+  box-sizing: border-box;
+  font-size: 2rem;
+  width: 354px;
+  height: 96px;
+  line-height: 48px;
+  margin-bottom: 91px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background-color: var(--placeholder-color);
+  padding: 17px 0px 17px 35px;
+  border-radius: 66px;
+  outline: 0;
+  font-size: 1rem;
+  line-height: 36px;
+}
+
+#email:first-of-type {
+  margin-bottom: 32px;
+}
+.decoration-bar{
+  margin-top: 102.93px;
+  margin-bottom: 93px;
+  border: solid 1px var(--cor-barra);
+}
+.sidebar{
+  border: solid 1px var(--cor-barra);
+}
+.text-create-account {
+margin-bottom: 96px;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+#create-account {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+#create-account a:visited {
+  color: var(--color-primary);
+}
+
+.info-login-2 img {
+  display: block;
+  box-sizing: border-box;
+  width: 734px;
+  height: 893px;
+  object-fit: cover;
+  border-radius: 26px;
+}
+.info-login-2{
+  position: relative;
+}
+.info-login-2 h2{
+ position: absolute;
+ top: 100px;
+ left: 38px;
+ width: 540px;
+ color: var(--color-secundary);
+ font-size: 2.5rem;
+}

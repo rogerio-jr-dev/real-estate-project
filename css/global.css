@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-content: center;
+  max-width: 1555px;
+}
+
+.btn-form {
+  width: 100%;
+  margin-top: 52px;
+  background-color: var(--color-primary);
+  border-radius: 55px;
+  border: none;
+  padding: 17px;
+  font-size: 1rem;
+  color: var(--background-color-body);
+  cursor: pointer;
+}

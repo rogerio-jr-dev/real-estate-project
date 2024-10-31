@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importação de fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/icons/logo-empresa.svg" type="image/x-icon" />
+    <title>Agência batatinha</title>
+  </head>
+  <body>
+    <header>
+      <!-- menu de navegação -->
+      <nav class="menu poppins-500">
+        <div class="logo">
+          <a href="#">
+            <img src="assets/icons/logo-empresa.svg" alt="logo da empresa" />
+          </a>
+          <span class="poppins-700">Agência batatinha</span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <div class="container info">
+          <div class="info-login">
+            <div id="title-login">
+              <h1 class="poppins-700">Entre com seu email e senha</h1>
+            </div>
+            <form action="/">
+              <label for="email" name="email">
+                <input
+                  class="poppins-500"
+                  type="email"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+                <br />
+              </label>
+              <label for="password" name="password">
+                <input
+                  class="poppins-500"
+                  type="password"
+                  id="password"
+                  placeholder="Senha"
+                  required
+                />
+              </label>
+              <span class="poppins-500" id="msg-de-envio"> </span>
+              <br />
+              <button type="submit" class="btn-form poppins-500">Entrar</button>
+              <div class="decoration-bar"></div>
+              <h2 class="poppins-400 text-create-account">
+                Não possui uma conta?
+                <span id="create-account"><a id="link" href="#">Criar</a></span>
+              </h2>
+            </form>
+          </div>
+          <div class="sidebar"></div>
+          <div class="info-login-2">
+            <img src="assets/img/apto-1.webp" alt="foto de boas vindas" />
+            <h2 class="poppins-500">Bem-vindo à agência Batatinha</h2>
+          </div>
+        </div>
+      </article>
+      <footer></footer>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>

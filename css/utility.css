@@ -1,0 +1,52 @@
+:root {
+  /* Fontes */
+  --font-family-primary: "Poppins", sans-serif;
+  --font-family-secundary: "Inter", sans-serif;
+  /* Cores */
+  --color-primary: #FE8100;
+  --color-secundary: #E9ECF2;
+  /*Cores de fundo */
+  --background-color-menu: #1E1E1E;
+  --background-color-body: #FFFFFF;
+  /*Cores das Fontes*/
+  --primary-text-color: #343434;
+  --secondary-text-color: #848383;
+  --tertiary-text-color: #FBFBFB;
+  --quartuaria-text-color: #E9EcF2;
+  --placeholder-color: #f2f2f4;
+  --banner-title-color: #3C3C3C;
+
+  /*Cor barra de decoração */
+  --cor-barra: #D8D8D8;
+}
+
+/* Tamanhos de fontes */
+.poppins-400 {
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-500 {
+  font-family: var(--font-family-primary);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-600 {
+  font-family: var(--font-family-primary);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-700 {
+  font-family: var(--font-family-primary);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inter-400 {
+  font-family: var(--font-family-secundary);
+  font-weight: 400;
+  font-style: normal;
+}
