@@ -24,7 +24,9 @@
 .poppins-400 {
   font-family: var(--font-family-primary);
   font-weight: 400;
+  font-size: 1.5rem ;
   font-style: normal;
+  color: var(--secondary-text-color);
 }
 
 .poppins-500 {
@@ -35,7 +37,9 @@
 
 .poppins-600 {
   font-family: var(--font-family-primary);
+  font-size:1.5rem;
   font-weight: 600;
+  color: var(--primary-text-color);
   font-style: normal;
 }
 
@@ -50,3 +54,4 @@
   font-weight: 400;
   font-style: normal;
 }
+

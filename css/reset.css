@@ -2,7 +2,7 @@ body{
   margin:auto;
   max-width: 1728px;
 }
-ul, li, a, span,h1, h2, h3,h4, p, button, input{
+ul, li, a, span,h1, h2, h3,h4, h5, p, button, input{
   text-decoration: none;
   list-style: none;
   margin:0px;

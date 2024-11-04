@@ -10,6 +10,9 @@
 .sub-menu li :hover {
   background-color: var(--color-primary);
 }
+.sub-menu #sair{
+  background-color: var(--color-primary);
+}
 
 .banner {
   position: relative;
@@ -77,6 +80,53 @@
 
 /*Seção de apartamentos */
 
-#body-home{
- height: 3000px;
+.card{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 39px;
+  row-gap: 49px;
+  margin-top: 25px;
+}
+.property img {
+  width: 292px;
+  height: 197px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.home-descption{
+  display: flex;
+  gap: 25px;
+}
+
+#footer-id{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 158px;
+  padding: 42px 198px 59px 220px;
+  background-color: var(--background-color-menu);
+  align-items: end;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+}
+.info-contact h4{
+  margin-bottom: 29px;
+  color: var(--color-primary);
+}
+.info-contact a{
+  display: block;
+  margin-bottom: 14px;
+  color: var(--quartuaria-text-color);
+}
+.social-midia{
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  margin-top: 38px;
+}
+.copyright{
+  font-size: 1rem;
+  color: var(--quartuaria-text-color);
 }
