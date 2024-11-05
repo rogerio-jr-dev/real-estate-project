@@ -12,7 +12,7 @@
       <!-- menu de navegação -->
       <nav class="menu poppins-500">
         <div class="logo">
-          <a href="#">
+          <a href="./login.html">
             <img src="assets/icons/logo-empresa.svg" alt="logo da empresa" />
           </a>
           <span class="poppins-700">Agência batatinha</span>
@@ -26,17 +26,17 @@
             <div id="title-login">
               <h1 class="poppins-700">Entre com seu email e senha</h1>
             </div>
-            <form action="/">
+            <form id="form" action="">
               <label for="email" name="email">
-                <input class="poppins-500"  type="email" id="email" placeholder="Email" required />
+                <input class="poppins-500"  type="email" id="email" placeholder="Email" />
                 <br />
               </label>
               <label for="password" name="password">
-                <input class="poppins-500" type="password" id="password" placeholder="Senha" required />
+                <input class="poppins-500" type="password" id="password" placeholder="Senha" />
               </label>
-              <span class="poppins-500" id="msg-de-envio"> </span>
+              <span class="poppins-500" id="sending-msg"> </span>
               <br />
-              <button type="submit" class="btn-form poppins-500">Entrar</button>
+              <input type="submit" class="btn-form poppins-500" onclick="save(event)" value="Entrar">
               <div class="decoration-bar"></div>
               <h2 class="poppins-400 text-create-account">
                 Não possui uma conta?
@@ -53,6 +53,8 @@
       </article>
       <footer></footer>
     </main>
-    <script src="js/script.js"></script>
+    <script src="js/autentication.js"></script>
   </body>
+  <footer>
+  </footer>
 </html>

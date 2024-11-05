@@ -68,6 +68,16 @@ input {
   font-size: 1rem;
   line-height: 36px;
 }
+#form{
+  position: relative;
+}
+#sending-msg{
+  position: absolute;
+  top: 184px;
+  left: 20px;
+  font-size: 0.93rem;
+  color: var(--message-error-color); 
+}
 
 #email:first-of-type {
   margin-bottom: 32px;

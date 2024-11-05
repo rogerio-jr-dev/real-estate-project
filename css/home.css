@@ -130,3 +130,69 @@
   font-size: 1rem;
   color: var(--quartuaria-text-color);
 }
+/*----------- Modal ----------*/
+.dialog{
+  border: none;
+  border-radius: 16px;
+  width: 1088px;
+  height: 883px;
+  outline: 0;
+}
+dialog::backdrop{
+  background-color: rgb(0 0 0 /.5);
+}
+
+.modal{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  position: relative;
+  gap:15px;
+  padding: 40px 52px 28px 55px;
+}
+.modal .meters{
+  margin-right:100px ;
+}
+.price{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: end;
+  font-size: 2.5rem;
+  margin-top: 21px;
+}
+#close{
+  top: 10px;
+  right: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+.picture{
+  object-fit: cover;
+  width: 981px;
+  min-height: 580px;
+  border-radius: 12px;
+}
+.description-modal{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.description-modal p,
+.description-modal a{
+    display: block;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+.description-modal .btn-card{
+  align-items: end;
+  text-align: center;
+  padding: 15px 67px 14px 63px;
+  background-color: var(--quartuaria-text-color);
+  color: #000;
+}
+
+#by{
+  color: var(--background-color-body);
+  background-color: var(--color-primary);
+  cursor: pointer;
+}
